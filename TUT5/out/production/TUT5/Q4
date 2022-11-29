@@ -1,0 +1,2 @@
+X2 cant extend X1 because X1 is final
+Method foo is declared as final in X2 therefore it cannot be overridden in X3

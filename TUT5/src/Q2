@@ -1,0 +1,15 @@
+e1 contains: Name: John, 77 Exhibition Road London
+e2 contains: Name: George, 77 Exhibition Road London
+e3 contains: Name: Helen, 77 Exhibition Road London
+After e1.company_address = a2
+e1 contains: Name: John, 5 Guilford Road York
+e2 contains: Name: George, 5 Guilford Road York
+e3 contains: Name: Helen, 5 Guilford Road York
+Memory location for e1.company_address object: Address@1234567
+Memory location for e2.company_address object: Address@1234567
+Memory location for e3.company_address object: Address@1234567
+e1.numberOfEmployees: 3
+e2.numberOfEmployees: 3
+e3.numberOfEmployees: 3
+
+//Since company_address is static all employees will have the same address.

@@ -1,0 +1,8 @@
+1. Interface has a private method called solve; Interfaces are not allowed to have private
+methods without method bodies.
+2. Print formula method has a method implementation in the interface. Interface cannot have
+public methods with bodies.
+3. The method printFormula() is not implemented in LinearEquation class. When a class is
+implementing a interface it should implement all the methods found in that interface.
+4. All fields inherited from the interface are static and final therefore the method solve()
+cannot change the value of numberOfVariables.

@@ -1,0 +1,11 @@
+g1 == g2 evaluates: true
+g1.equals(g2) evaluates: true
+
+h1 == h2 evaluates: false
+h1.equals(h2) evaluates: true
+
+g1 == h1 evaluates: false
+g1.equals(h1) evaluates: true
+
+m1 == m2 evaluates: false
+m1.equals(m2) evaluates: false

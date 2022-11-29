@@ -1,0 +1,17 @@
+After mutate() is called, colour of cat c1 is: Pink
+After creation of cat c2
+Memory address of object c1 is: Cat@12345678
+Memory address of object c2 is: Cat@91011121
+
+
+After assignment c2 = c1;
+Memory address of object c1 is: Cat@12345678
+Memory address of object c2 is: Cat@12345678
+
+
+After c2.setColour("Yellow")
+Colour of c1 is: Yellow
+Colour of c2 is: Yellow
+
+Inside Cat.create(), address of created  cat object c is: Cat@24681012
+Address of c3 is: Cat@24681012
